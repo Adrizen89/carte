@@ -1,0 +1,19 @@
+{
+  "name": "carte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrizen89/carte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrizen89/carte/issues"
+  },
+  "homepage": "https://github.com/Adrizen89/carte#readme"
+}
