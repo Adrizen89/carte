@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif; }
 
+header .head {
+  display: flex; }
+  header .head .title {
+    width: 50%;
+    height: 500px;
+    background: url("./img-css/foret.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  header .head .description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%; }
+
+.information {
+  width: 100%;
+  height: 100px;
+  background-color: #17202A;
+  color: #979A9A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+main {
+  background-color: #BDC3C7; }
+  main section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: white; }
+    main section img {
+      width: 50%; }
+    main section article h2 {
+      font-size: 2.5em; }
+    main section article .detail {
+      font-size: 1.2em; }
+    main section article table tr td {
+      font-size: 1em; }
+    main section article .more {
+      font-size: 1em; }
 
 /*# sourceMappingURL=style.css.map */
