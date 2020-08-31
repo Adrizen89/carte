@@ -1,0 +1,74 @@
+$bg-beer : #F2F3F4;
+$bghead-foot : #17202A;
+$font-head-foot : #979A9A;
+
+@mixin font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+*{
+    margin: 0;
+    @include font();
+}
+
+header{
+    .head{
+        display: flex;
+        .title{
+            width: 50%;
+            height: 500px;
+            background: url('./img-css/foret.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .description{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 50%;
+            
+        }
+    }
+}
+
+.information{
+    width: 100%;
+    height: 100px;
+    background-color: $bghead-foot;
+    color : $font-head-foot;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    background-color: #BDC3C7;
+    section{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        background-color: white;
+        img{
+            width: 50%;
+        }
+        article{
+            h2{
+                font-size: 2.5em;
+            }
+            .detail{
+                font-size: 1.2em;
+            }
+            table{
+                tr{
+                    td{
+                        font-size: 1em;
+                    }
+                }
+            }
+            .more{
+                font-size: 1em;
+            }
+        }
+    }
+}
